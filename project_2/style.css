@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+#layer{
+    display: flex;
+    background-color: #82616d;
+    width: 100%;
+    height: 100%;
+}
+#layer #ltext{
+    top: 30%;
+    left: 33%;
+    position: absolute;
+
+    z-index: 9999;
+    
+}
+#ltext h1{
+    font-family: "voyage";
+    font-weight: 100;
+    font-size: 100px;
+    color: white;
+
+
+
+}
+#left{
+    width: 45%;
+    height: 100%;
+    position: relative;
+
+}
+#scroll {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    align-items: center;
+    letter-spacing: 10px;
+    color: white;   
+    text-transform: uppercase;
+    transform-origin: 0% 50%;
+    transform:rotate(-90deg) ;
+    left: 50px;
+}
+#scroll h4{
+    font-weight: 10;
+    font-size: 8px;
+}
+#scroll #line{
+    width: 150px;
+    background-color: white;
+    height: 2px;
+
+}
+#leftimg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 45%;
+    height: 60%;
+    transform: translate(-50%,-50%);
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1619024304505-b31bef080370?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fHBvdHJhaXR8ZW58MHx8MHx8fDA%3D);
+}
+#text{
+    position: absolute;
+    top: 370px;
+    height: 80px;
+    width: 280px;
+    display: flex;
+}
+#text #part1{
+    width: 30%;
+   
+}
+#part1 h5{
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+#text #part2{
+    width: 70%;
+    color: white;
+}
+#part2 p{
+    font-size: 12px;
+}
+#navbar{
+    align-items: center;
+    width: 100%;
+    padding: 30px 40px;
+    display: flex;
+    gap: 90px;
+    color: white;
+}
+#navbar h3{
+    
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Montserrat";
+}
+
+#navbar a{
+    text-decoration: none;
+    font-family: "Montserrat";
+    color: white;
+    font-size: 13px;
+    font-weight: 300;
+}
+#center{
+    width: 45%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1562048048-86d659689440?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxNzczNjYzM3x8ZW58MHx8fHx8);
+    background-position: center;
+    background-size: cover;
+}
+#right{
+    width: 10%;
+    height: 100%;
+}
+#search{
+    height: 400px;
+    width: 120px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 10px;
+    position: relative;
+    color: white;
+}
+#search #realme {
+    display: flex;                                                                                                                                                                                                                                                                                                                                                                          
+    font-size: 10px;
+    transform: rotate(90deg);
+    gap: 20px;
+    top: -120px;
+    align-items: center;
+    position: relative;
+    
+}
+#realme a{
+    color: white;
+    text-decoration: none;
+}
